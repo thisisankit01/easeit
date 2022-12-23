@@ -7,7 +7,7 @@
 body {
   background-image: url('/images/links\ -\ dark.svg');
 }
-
+/* 
 .grid {
   display: grid;
   grid-template-rows: repeat(2, 547px);
@@ -18,8 +18,8 @@ body {
 .card {
   background-color: #ccc;
 }
-
-.message-card-dimension {
+ */
+/* .message-card-dimension {
   width: 547px;
   height: 323px;
 }
@@ -37,4 +37,4 @@ body {
 .code-card-dimension{
   width: 477px;
   height: 333px;
-}
+}  */
