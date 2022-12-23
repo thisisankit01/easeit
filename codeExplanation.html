@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Easeit - Code Explanation</title>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body class="mb-56">
+
+
+<!-- Navbar -->
+<nav class="flex w-screen justify-center items-center text-center pt-10 bg-grey">
+  <!-- Flex Container -->
+  <div class="inline-flex items-center justify-between space-x-9">
+    <!-- logo -->
+    <img src="/images/openai-logo.svg"  class= "pt-px" alt="">
+    <!-- Links -->
+    <a href="#" class=" text-white text-gradient">EaseIt</a>
+    <a href="#" class=" text-white">Profile</a>
+    <a href="#" class=" text-white">Logout</a>
+    <a href="#" class="text-cyan-300 text-right" > <-Back </a>
+  </div>
+</nav>
+
+<!-- Page Topic -->
+<section id="personalisedMessage">
+  <div class="content justify-center text-center pt-10 mt-10">
+    <h1 class="text-5xl  text-white font-bold">
+      Code Explaination
+    </h1>
+    <p class="text-xl text-white pt-6 max-w-sm mx-auto">
+      Enter the whole code and get a detailed explanation for the same 
+    </p>
+  </div>
+</section>
+
+<section id="getAnswer">
+  <!-- flex-row division -->
+  <div class="flex flex-row mt-24 space-x-32 justify-center">
+    <!-- message -->
+    <div class = "text-white">
+      <div>
+        <label for="">{{label}}</label><br>
+        <textarea name="" id="" cols="60" rows="20" class="bg-transparent border-red-400 text-white rounded-lg">{{data}}</textarea><br>
+        <button type="submit" class="bg-transparent border-gray-400 text-white text-cyan-300 pl-24 pt-7 text-2xl">Explain -></button>
+    </div>
+  </div>
+  <div>
+    <label for="">{{label}}</label><br>
+    <textarea name="" id="" cols="60" rows="20" class="bg-transparent border-red-400 text-white rounded-lg">{{data}}</textarea>
+</div>
+  </div>
+</section>
+
+
+</body>
+</html>

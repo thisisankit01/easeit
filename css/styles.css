@@ -1,0 +1,40 @@
+/* .background-upper{
+  background-image: url('/images/header-gradient.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+} */
+body {
+  background-image: url('/images/links\ -\ dark.svg');
+}
+
+.grid {
+  display: grid;
+  grid-template-rows: repeat(2, 547px);
+  grid-template-columns: repeat(2, 323px);
+  gap: 2px;
+}
+
+.card {
+  background-color: #ccc;
+}
+
+.message-card-dimension {
+  width: 547px;
+  height: 323px;
+}
+
+.diet-card-dimension{
+  width: 477px;
+  height: 323px;
+}
+
+.debug-card-dimension{
+  width: 547px;
+  height: 333px;
+}
+
+.code-card-dimension{
+  width: 477px;
+  height: 333px;
+}
