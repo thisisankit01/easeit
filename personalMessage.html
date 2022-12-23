@@ -45,11 +45,11 @@
   <!-- flex-row division -->
   <div class="flex flex-row mt-24 space-x-32 justify-center">
     <!-- form -->
-    <div class = "text-white">
+    <div>
 
       <form method="post" action="/messages" class="leading-10">
         <label for="language" class="block mb-2 text-white">Language</label>
-        <input type="text" id="language" name="language" required class="bg-transparent border-gray-600 text-white rounded-lg w-96">
+        <input type="text" id="language" name="language" required class="bg-transparent text-gray-600 input-border rounded-lg w-96">
       
         <label for="replyToMessage" class="block mb-2 text-white pt-2">Reply to message</label>
         <input type="text" id="replyToMessage1" name="replyToMessage" required class="bg-transparent border-gray-500 text-white rounded-lg w-96">
@@ -65,7 +65,11 @@
         <label for="tone" class="block mb-2 text-white">Tone</label>
         <input type="text" id="" name="tone" required class="bg-transparent border-gray-400 text-white rounded-lg w-96"><br>
       
-        <button type="submit" class="bg-transparent border-gray-400 text-white text-cyan-300 pl-16 pt-7 text-2xl">Generate -></button>
+        <button class="relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-white rounded-lg group-hover:from-purple-500 group-hover:to-pink-500 hover:text-white input-border">
+          <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-transparent dark:bg-gray-900 rounded-md group-hover:bg-opacity-0">
+              Generate
+          </span>
+        </button>
       </form>
       
 
@@ -74,7 +78,7 @@
   </div>
   <div>
     <label for="">{{label}}</label><br>
-    <textarea name="" id="" cols="80" rows="10" class="bg-transparent border-red-400 text-white rounded-lg">{{data}}</textarea>
+    <textarea name="" id="" cols="80" rows="10" class="bg-transparent text-gray-600 input-border rounded-lg p-4">{{data}}</textarea>
 </div>
   </div>
 </section>
