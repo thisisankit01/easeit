@@ -42,3 +42,7 @@ body {
 .input-border {
   border: 1px solid gray;
 }
+
+.pad-top {
+  padding-top: 20px;
+}
