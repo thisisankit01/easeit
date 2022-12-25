@@ -513,40 +513,8 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.container {
-  width: 100%;
-}
-
-@media (min-width: 480px) {
-  .container {
-    max-width: 480px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-
-@media (min-width: 976px) {
-  .container {
-    max-width: 976px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-}
-
 .relative {
   position: relative;
-}
-
-.m-auto {
-  margin: auto;
 }
 
 .mx-auto {
@@ -570,10 +538,6 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
-}
-
 .mr-2 {
   margin-right: 0.5rem;
 }
@@ -590,16 +554,8 @@ video {
   display: inline-flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .h-80 {
   height: 20rem;
-}
-
-.h-72 {
-  height: 18rem;
 }
 
 .w-screen {
@@ -610,18 +566,6 @@ video {
   width: 24rem;
 }
 
-.w-10\/12 {
-  width: 83.333333%;
-}
-
-.w-64 {
-  width: 16rem;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
-}
-
 .w-4\/12 {
   width: 33.333333%;
 }
@@ -630,12 +574,17 @@ video {
   width: 20rem;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-sm {
   max-width: 24rem;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.max-w-fit {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
 }
 
 .flex-row {
@@ -656,10 +605,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.gap-2 {
-  gap: 0.5rem;
 }
 
 .space-x-9 > :not([hidden]) ~ :not([hidden]) {
@@ -746,6 +691,12 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-blue-500 {
+  --tw-gradient-from: #3b82f6;
+  --tw-gradient-to: rgb(59 130 246 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .via-purple-500 {
   --tw-gradient-to: rgb(168 85 247 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to);
@@ -767,6 +718,10 @@ video {
 
 .to-blue-600 {
   --tw-gradient-to: #2563eb;
+}
+
+.to-teal-400 {
+  --tw-gradient-to: #2dd4bf;
 }
 
 .bg-clip-text {
@@ -850,10 +805,6 @@ video {
 
 .pt-14 {
   padding-top: 3.5rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
 }
 
 .text-center {
