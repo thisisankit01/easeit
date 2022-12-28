@@ -789,6 +789,11 @@ video {
   padding-right: 5rem;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -883,10 +888,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-gradient {
-  color: linear-gradient(to right, #F06844, #EE4C54, #D45E95, #9C6CA6, #6583C1);;
 }
 
 .text-cyan-300 {
