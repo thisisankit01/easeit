@@ -1,43 +1,7 @@
-/* .background-upper{
-  background-image: url('/images/header-gradient.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-} */
+
 body {
   background-image: url('/images/links\ -\ dark.svg');
 }
-/* 
-.grid {
-  display: grid;
-  grid-template-rows: repeat(2, 547px);
-  grid-template-columns: repeat(2, 323px);
-  gap: 2px;
-}
-
-.card {
-  background-color: #ccc;
-}
- */
-/* .message-card-dimension {
-  width: 547px;
-  height: 323px;
-}
-
-.diet-card-dimension{
-  width: 477px;
-  height: 323px;
-}
-
-.debug-card-dimension{
-  width: 547px;
-  height: 333px;
-}
-
-.code-card-dimension{
-  width: 477px;
-  height: 333px;
-}  */
 
 .input-border {
   border: 1px solid gray;
@@ -46,31 +10,5 @@ body {
 .pad-top {
   padding-top: 20px;
 }
-
-.card {
-  width: 40%;
-  height: 80px;
-  padding: 16px;
-  font-size: 16px;
-}
-
-/* styles for screen widths less than or equal to 768px */
-@media (max-width: 768px) {
-  .card {
-    width: 80%;
-    font-size: 14px;
-  }
-}
-
-/* styles for screen widths less than or equal to 480px */
-@media (max-width: 480px) {
-  .card {
-    width: 100%;
-    height: 60px;
-    font-size: 12px;
-  }
-}
-
-
 
 
